@@ -1,0 +1,25 @@
+{
+  "name": "zazu-open-jira-issue",
+  "version": "1.0.0",
+  "description": "Zazu Template for starting your own plugin.",
+  "blocks": {
+    "input": [
+      {
+        "id": "jira-issue",
+        "type": "PrefixScript",
+        "prefix": "Jira",
+        "space": true,
+        "args": "Optional",
+        "script": "src/jira.js",
+        "connections": ["OpenInJira"]
+      }
+    ],
+    "output": [
+      {
+        "id": "OpenInJira",
+        "type": "OpenInBrowser",
+        "url": "{value}"
+      }
+    ]
+  }
+}
