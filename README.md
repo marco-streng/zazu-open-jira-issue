@@ -1,6 +1,7 @@
 ## Zazu open Jira issue plugin
 
 [![Build Status](https://travis-ci.org/marco-streng/zazu-open-jira-issue.svg?branch=master)](https://travis-ci.org/marco-streng/zazu-open-jira-issue)
+[![codecov](https://codecov.io/gh/marco-streng/zazu-open-jira-issue/branch/master/graph/badge.svg)](https://codecov.io/gh/marco-streng/zazu-open-jira-issue)
 
 > Simple [Zazu](https://github.com/tinytacoteam/zazu) plugin to directly open Jira issues in your browser by issue key
 
